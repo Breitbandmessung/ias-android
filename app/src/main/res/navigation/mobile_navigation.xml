@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~     Copyright (C) 2016-2025 zafaco GmbH
+  ~
+  ~     This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU Affero General Public License version 3
+  ~     as published by the Free Software Foundation.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU Affero General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU Affero General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_speed">
+
+    <fragment
+        android:id="@+id/navigation_speed"
+        android:name="com.zafaco.ias.demo.ui.speed.SpeedFragment"
+        android:label="@string/title_speed"
+        tools:layout="@layout/fragment_speed" />
+
+    <fragment
+        android:id="@+id/navigation_coverage"
+        android:name="com.zafaco.ias.demo.ui.coverage.CoverageFragment"
+        android:label="@string/title_coverage"
+        tools:layout="@layout/fragment_coverage" />
+
+</navigation>

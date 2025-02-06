@@ -1,0 +1,6 @@
+[submodule "ias-android-coverage"]
+	path = ias-android-coverage
+	url = https://github.com/Breitbandmessung/ias-android-coverage.git
+[submodule "ias-android-speed"]
+	path = ias-android-speed
+	url = https://github.com/Breitbandmessung/ias-android-speed.git
